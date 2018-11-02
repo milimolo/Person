@@ -50,7 +50,6 @@ public class TestClass
         people.add(teacherJack);
         
         //indsæt personer i array her.
-        //Når du kommer til teachers så brug getEmail etc.
     }
 
     
