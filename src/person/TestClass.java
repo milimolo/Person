@@ -21,6 +21,7 @@ public class TestClass
     Teacher teacherJohn = new Teacher(101, "John Bentson", "JB");
     Teacher teacherJack = new Teacher(102, "Jack Sparrow","Captain Jack Sparrow");
     
+    Student peter = new Student(105, "Peter Jensen", "Dansk");
     
     //Lav personerne her
     

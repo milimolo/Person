@@ -56,9 +56,14 @@ public class Student extends Person
         return -1;
     }
     
-    public void addGrade(GradeInfo grade)
+    public void addGrade(String subject, int grade)
     {
-        gradeReport.add(grade);
+        GradeInfo gradeSub = new GradeInfo(subject, grade);
+        gradeReport.add(gradeSub);
     }
     
+    public String toSring()
+    {
+        return education;
+    }
 }
